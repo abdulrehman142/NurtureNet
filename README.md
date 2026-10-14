@@ -273,3 +273,13 @@ These experiments mask inputs to the trained GCAN without retraining it.
 The notebook's default evaluation workflow was executed sequentially using the original project assets. Test metrics, per-class scores, the confusion matrix, ablations and qualitative predictions matched the saved V4 results. Dataset checks confirmed the expected counts and zero video-ID leakage. The training code also passed a real-feature backward-pass and optimizer-step check; a full training run was not repeated.
 
 The computational benchmark measures GCAN forward-pass latency and throughput on precomputed features. It excludes video decoding, feature extraction and host-to-device transfer, so it represents model inference performance rather than end-to-end video processing time.
+
+## Dataset and Model Artifacts
+
+The processed multimodal features, dataset manifests,
+metadata, and trained model artifacts are available on Kaggle:
+
+[NurtureNet Five-Modality Video Safety Artifacts](https://www.kaggle.com/datasets/abdulrehman142/nurturenet-five-modality-video-safety-artifacts)
+
+The original raw videos are available through the
+TikHarm and TikHarm Extended datasets.
