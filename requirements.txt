@@ -1,0 +1,12 @@
+# Runtime dependencies for NurtureNet_Final_Training_Pipeline.ipynb
+# Python 3.11 recommended; CPU evaluation is supported.
+# This is a dependency list, not a lockfile for the historical training environment.
+torch
+numpy
+pandas
+scikit-learn
+ipython
+
+# Local notebook interface and Python kernel
+jupyterlab
+ipykernel
