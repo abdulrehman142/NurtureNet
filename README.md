@@ -124,7 +124,7 @@ Windows PowerShell:
 Install dependencies:
 
 ```bash
-python -m pip install -r req.txt
+python -m pip install -r requirements.txt
 ```
 
 CPU evaluation is supported. The notebook automatically uses CUDA when available. Dependencies are unpinned; the requirements file is not a lockfile for the historical training environment.
