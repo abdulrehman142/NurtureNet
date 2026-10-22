@@ -95,7 +95,7 @@ The notebook includes a training loop reconstructed from the available training 
 
 ```text
 README.md
-req.txt
+requirements.txt
 NurtureNet_Final_Training_Pipeline.ipynb
 ```
 
